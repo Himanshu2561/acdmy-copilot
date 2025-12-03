@@ -1,0 +1,34 @@
+{
+  "name": "azf-copilot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "tunnel": "npx localtunnel --port 3000 --subdomain azf-copilot-main",
+    "tunnel:random": "npx localtunnel --port 3000",
+    "tunnel:backend": "npx localtunnel --port 8000 --subdomain azf-copilot-main-api",
+    "tunnel:backend:random": "npx localtunnel --port 8000"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "next": "16.0.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
