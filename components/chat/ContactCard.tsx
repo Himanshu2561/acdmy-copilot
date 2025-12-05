@@ -176,7 +176,7 @@ export default function ContactCard({ attachments }: ContactCardProps) {
         style={{ background: '#004185' }}
       >
         <h3 className="text-lg sm:text-xl font-semibold text-white mb-1">
-          Contact Aspire Zone
+          Contact Aspire Academy
         </h3>
         <p className="text-sm sm:text-base text-white/90">
           We're here to help you
